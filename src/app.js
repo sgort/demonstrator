@@ -9,9 +9,9 @@ class App extends Component {
         return (
             <HashRouter>
                 <div>
-                    <h1>Demonstratie API strategie</h1>
+                    <h1>Demonstratie API strategie (v0.1.0)</h1>
                     <ul className="header">
-                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/zaak">Zaak</NavLink></li>
                         <li><NavLink to="/situatie">Situatie</NavLink></li>
                     </ul>
