@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h2>HOME</h2>
+                <h2>Start pagina</h2>
                 <p>
                     <img src={require('./images/discipl-api-strategy.jpg')} alt="" />
                 </p>
